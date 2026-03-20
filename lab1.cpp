@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     double a, b, c;
 
-    cout << "Введите стороны треугольника: ";
+    cout << "Введите стороны треугольника: "; //rjvtynfhbq 
     cin >> a >> b >> c;
 
     if (a + b <= c || a + c <= b || b + c <= a) {
