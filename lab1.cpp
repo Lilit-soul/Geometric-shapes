@@ -3,9 +3,9 @@
 
 using namespace std;
 
-int tringle() {
+void  triangle() {
     double a, b, c;
-
+    cout <<" _______Треугольник_________"<<"\n";
     cout << "Введите стороны треугольника: ";
     cin >> a >> b >> c;
 

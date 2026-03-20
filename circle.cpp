@@ -29,6 +29,6 @@ int main(){
     cout << "Длина окружности: " << setprecision(rounding) << circuit << "\n";
     cout << "Площадь круга: " << setprecision(rounding) << area << "\n";
     cout << "Площадь кругового сектора: " << setprecision(rounding) << sector << "\n";
-    
+    triangle();
     return 0;    
 }
