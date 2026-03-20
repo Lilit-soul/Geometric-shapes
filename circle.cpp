@@ -16,10 +16,26 @@ int main(){
 
     cout << "Введите радиус: ";
     cin >> radius;
+    if (radius < 0) {
+            cout << "Радиус не может быть отрицательным!" << endl;
+            return 0;
+        }
     cout << "Введите угол: ";
     cin >> corner;
-    cout << "Введите число для округления: ";
+    if (corner < 0) {
+        cout << "Угол не может быть отрицательным!" << endl;
+        return 0;
+    }
+    if (corner >360) {
+            cout << "Угол не может быть больше 360!" << endl;
+            return 0;
+        }
+    cout << "Введите положительное число для округления: ";
     cin >> rounding;
+    if (rounding < 0) {
+        cout << "Округление не может быть отрицательным!" << endl;
+        return 0;
+    }
 
     double circuit = 2 * PI * radius;// Длина окружности
     double area = PI * radius * radius;// Площадь круга
