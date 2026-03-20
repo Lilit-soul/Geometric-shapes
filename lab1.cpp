@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int tringle() {
     double a, b, c;
 
     cout << "Введите стороны треугольника: ";
@@ -11,7 +11,6 @@ int main() {
 
     if (a + b <= c || a + c <= b || b + c <= a) {
         cout << "Треугольник не существует" << endl;
-        return 1;
     }
 
     double P = a + b + c;
@@ -29,5 +28,4 @@ int main() {
         cout << "Треугольник не равнобедренный" << endl;
     }
 
-    return 0;
 }

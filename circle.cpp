@@ -3,6 +3,8 @@
 #include <cmath>
 using namespace std;
 
+void triangle();
+
 int main(){
     
     const double PI = acos(-1.0); // число пи (аркосинус -1)
