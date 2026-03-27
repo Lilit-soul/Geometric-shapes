@@ -6,7 +6,7 @@ using namespace std;
 void triangle();
 
 int main(){
-
+    //Комментарий №1
     const double PI = acos(-1.0); // число пи (аркосинус -1)
     double radius;
     double corner;
